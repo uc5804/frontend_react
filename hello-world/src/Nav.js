@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/style.css";
-import "../css/Nav.css";
+import "./css/style.css";
+import "./css/Nav.css";
 
 function mainNav(){
   return <div class="container">

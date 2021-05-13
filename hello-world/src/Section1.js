@@ -1,14 +1,7 @@
 import React from "react";
 
-import "../css/style.css";
-import "../css/Section1.css";
-
-import cabin from '../assets/img/portfolio/cabin.png'
-import cake from '../assets/img/portfolio/cake.png'
-import circus from '../assets/img/portfolio/circus.png'
-import game from '../assets/img/portfolio/game.png'
-import safe from '../assets/img/portfolio/safe.png'
-import submarine from '../assets/img/portfolio/submarine.png'
+import "./css/style.css";
+import "./css/Section1.css";
 
 function Section1(){
   return  <div>
@@ -30,7 +23,7 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={cabin} />
+                      1<img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />2
                   </div>
               </div>
               {/* <!-- Portfolio Item 2--> */}
@@ -39,7 +32,7 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={cake} />
+                      <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
                   </div>
               </div>
               {/* <!-- Portfolio Item 3--> */}
@@ -48,7 +41,7 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={circus} />
+                      <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
                   </div>
               </div>
               {/* <!-- Portfolio Item 4--> */}
@@ -57,7 +50,7 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={game} />
+                      <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
                   </div>
               </div>
               {/* <!-- Portfolio Item 5--> */}
@@ -66,7 +59,7 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={safe} />
+                      <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
                   </div>
               </div>
               {/* <!-- Portfolio Item 6--> */}
@@ -75,17 +68,17 @@ function Section1(){
                       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                       </div>
-                      <img class="img-fluid" src={submarine} />
+                      <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
                   </div>
               </div>
           </div>
       </div>
   </section>
-        {/*<!-- Portfolio Modals-->*/}
+        {/*<!-- Portfolio Modals-->*/}1
         {/*<!-- Portfolio Modal 1-->*/}
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">2
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
+            <div class="modal-dialog modal-xl" role="document">1.5
+                <div class="modal-content">2
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
@@ -102,7 +95,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={cabin} />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -136,7 +129,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={cake} />
+                                    <img class="img-fluid rounded mb-5" src="./assets/img/portfolio/cake.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -148,7 +141,7 @@ function Section1(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>fpre
         </div>
         {/* <!-- Portfolio Modal 3--> */}
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
@@ -170,7 +163,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={circus} />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -204,7 +197,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={game} />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -238,7 +231,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={safe} />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -272,7 +265,7 @@ function Section1(){
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     {/* <!-- Portfolio Modal - Image--> */}
-                                    <img class="img-fluid rounded mb-5" src={submarine} />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
                                     {/* <!-- Portfolio Modal - Text--> */}
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">

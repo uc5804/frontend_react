@@ -1,6 +1,6 @@
 import React from "react";
-import "../src/css/style.css";
-import "../src/css/Bottom.css";
+import "../css/style.css";
+import "../css/Bottom.css";
 
 function Bottom(){
   return <div>

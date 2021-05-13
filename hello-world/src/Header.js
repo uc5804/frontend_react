@@ -1,12 +1,10 @@
 import React from "react";
-import "../css/style.css";
-import "../css/Header.css";
-
-import hanjul from '../assets/img/hanjul.jpg'
+import "./css/style.css";
+import "./css/Header.css";
 
 function Header(){
   return <div class="container d-flex align-items-center flex-column">
-            <img class="masthead-avatar mb-5" src={hanjul} />
+            <img class="masthead-avatar mb-5" src="assets/img/hanjul.jpg" alt="" />
             <h1 class="masthead-heading text-uppercase mb-0">한줄코딩</h1>
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>

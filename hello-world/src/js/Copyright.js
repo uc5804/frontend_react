@@ -1,6 +1,6 @@
 import React from "react";
-import "../src/css/style.css";
-import "../src/css/Copyright.css";
+import "../css/style.css";
+import "../css/Copyright.css";
 
 
 function Copyright(){
