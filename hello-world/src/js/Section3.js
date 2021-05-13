@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./css/style.css";
-import "./css/Section3.css";
+import "../src/css/style.css";
+import "../src/css/Section3.css";
 
 function Section3(){
   return <div>
-    {/* <section class="page-section" id="contact"> */}
+    <section class="page-section" id="contact">
             <div class="container">
                 {/* <!-- Contact Section Heading--> */}
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">모임연혁</h2>
@@ -46,7 +46,7 @@ function Section3(){
                     </div>
                     </div>
             </div>
-        {/* </section> */}
+        </section>
   </div>
 }
 

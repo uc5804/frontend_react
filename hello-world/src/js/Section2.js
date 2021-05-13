@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./css/style.css";
-import "./css/Section2.css";
+import "../src/css/style.css";
+import "../src/css/Section2.css";
 
 function Section2(){
   return <div>
-    {/* <section class="page-section bg-primary text-white mb-0" id="about"> */}
+    <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 {/* <!-- About Section Heading--> */}
                 <h2 class="page-section-heading text-center text-uppercase text-white">한줄코딩</h2>
@@ -28,7 +28,7 @@ function Section2(){
                     </a>
                 </div>
             </div>
-        {/* </section> */}
+        </section>
   </div>
 }
 

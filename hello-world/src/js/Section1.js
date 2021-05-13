@@ -1,14 +1,14 @@
 import React from "react";
 
-import "./css/style.css";
-import "./css/Section1.css";
+import "../src/css/style.css";
+import "../src/css/Section1.css";
 
-import cabin from './assets/img/portfolio/cabin.png'
-import cake from './assets/img/portfolio/cake.png'
-import circus from './assets/img/portfolio/circus.png'
-import game from './assets/img/portfolio/game.png'
-import safe from './assets/img/portfolio/safe.png'
-import submarine from './assets/img/portfolio/submarine.png'
+import cabin from '../assets/img/portfolio/cabin.png'
+import cake from '../assets/img/portfolio/cake.png'
+import circus from '../assets/img/portfolio/circus.png'
+import game from '../assets/img/portfolio/game.png'
+import safe from '../assets/img/portfolio/safe.png'
+import submarine from '../assets/img/portfolio/submarine.png'
 
 function Section1(){
   return  <div>
@@ -81,11 +81,11 @@ function Section1(){
           </div>
       </div>
   </section>
-        {/*<!-- Portfolio Modals-->*/}1
+        {/*<!-- Portfolio Modals-->*/}
         {/*<!-- Portfolio Modal 1-->*/}
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">2
-            <div class="modal-dialog modal-xl" role="document">1.5
-                <div class="modal-content">2
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
