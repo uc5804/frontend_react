@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/style.css";
-import "../css/Header.css";
 
 import hanjul from '../assets/img/hanjul.jpg'
 

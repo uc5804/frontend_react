@@ -1,7 +1,4 @@
 import React from "react";
-import "../css/style.css";
-import "../css/Nav.css";
-
 function mainNav(){
   return <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">한줄코딩</a>

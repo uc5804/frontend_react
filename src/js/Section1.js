@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../css/style.css";
-import "../css/Section1.css";
 
 import cabin from '../assets/img/portfolio/cabin.png'
 import cake from '../assets/img/portfolio/cake.png'

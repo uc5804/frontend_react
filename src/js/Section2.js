@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../css/style.css";
-import "../css/Section2.css";
 
 function Section2(){
   return <div>
