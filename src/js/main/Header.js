@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/style.css";
+import "../../css/style.css";
 
-import hanjul from '../assets/img/hanjul.jpg'
+import hanjul from '../../assets/img/hanjul.jpg'
 
 function Header(){
   return <div class="container d-flex align-items-center flex-column">
