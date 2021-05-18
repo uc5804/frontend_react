@@ -4,16 +4,20 @@ import "../../css/style.css";
 import hanjul from '../../assets/img/hanjul.jpg'
 
 function Header(){
-  return <div class="container d-flex align-items-center flex-column">
-            <img class="masthead-avatar mb-5" src={hanjul} />
-            <h1 class="masthead-heading text-uppercase mb-0">한줄코딩</h1>
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <p class="masthead-subheading font-weight-light mb-0">웹개발자 커뮤니티</p>
-          </div>
+  return (
+    <div  class="masthead bg-primary text-white text-center" >
+      <div class="container d-flex align-items-center flex-column">
+        <img class="masthead-avatar mb-5" src={hanjul} />
+        <h1 class="masthead-heading text-uppercase mb-0">한줄코딩</h1>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <p class="masthead-subheading font-weight-light mb-0">웹개발자 커뮤니티</p>
+      </div>
+    </div>
+  )
 }
 
 export default Header;
